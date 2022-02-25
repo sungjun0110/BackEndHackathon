@@ -52,11 +52,36 @@ At the moment there are **1,000** attendees. You must have endpoints that...
 ###  Bonus:
 
  - Deploy your API
+ - Add a README that goes through what your API does
  - Convert the phone field format from `xxx-xxxxxxx` to `(xxx) xxx-xxxx`.
  - Take the date format from month/year and separate it to have it's own fields (month and year)
  - Be able to search by any part of the name and return the results 
 
 ------
+
+
+
+## JSON DETAILS
+
+- **id** - `integer`
+- **name** - `String`
+- **phone** - `String`
+- **address** - `String`
+- **city** - `String`
+- **state** - `String`
+- **country** - `String`
+- **postalZip** - `String`
+- **email** - `String`
+- **Company** - `String` 
+  Listed Companies:  `Apple`, `Microsoft`, `Google`, `Yahoo`, `Adobe`, `Amazon`, `Meta`, `Sony`, `Oracle`
+- **companyFunded** - `String`
+- **userID** - `String`
+- **team** - `Integer` From 0  to 20
+- **paid** - `Boolean`
+- **date** - `String`
+- **title** - `String` 
+  Listed Titles:  `CustomerSuccess`, `FrontEnd`, `DevOps`, `QA`, `BackEnd`, `FullStack`, `TechLead`, `DataScience`, `ProjectManagement`, `UI`
+
 
 
 ## Attendee sample
