@@ -2,11 +2,60 @@
 
 Create a FULL CRUD API of your choosing:
 
-1. BUILD AN API  
-Create an API from scratch that does FULL CRUD using one of the JSON files included in this repo.
+1. **BUILD AN API**  
+Create an API from scratch that does FULL CRUD using one of the JSON files included in this repo. You can choose what language and database to use. 
 
-You must be able to use GET by at least 2 parameters. 
-Find and Update by certain parameters
+​	You must be able to 
+
+- Have 2 endpoints that GET by certain parameters
+- Be deployed to Heroku, or AWS (**THIS IS REQUIRED**)
+- 
+
+
+
+**GET**
+
+```
+	 /api/user/Bob Ross
+```
+
+**RESPONSE**
+
+```
+{
+		"name": "Bob Ross",
+		"phone": "1-757-463-6713",
+		"state": "Delaware",
+		"city": "Newark",
+		"country": "United States",
+		"postalZip": "38455",
+		"email": "HappyTrees@google.com",
+		"address": "P.O. Box 515, 7567 Auctor, Av.",
+		"list": "Media Relations",
+		"numberrange": 4,
+		"time": "13:24:08",
+		"date": "29-07-22",
+		"company": "Happy Accidents",
+		"groupID": 7,
+		"budgeted": 136.10
+	}
+```
+
+
+
+
+
+
+
+
+
+​	Find and Update by at least by two parameters
+
+
+
+
+
+
 
 
 2. Custome API using Exisiting API
@@ -36,5 +85,3 @@ or Seed data
 - Build API from the these EDM: 
 
 
-
-- Be deployed to Heroku, Netlify, Github, or Vercel (THIS IS REQUIRED)
