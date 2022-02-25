@@ -52,7 +52,7 @@ At the moment there are **1,000** attendees. You must have endpoints that...
 
  - Deploy your API
  - Convert the phone field format from `xxx-xxxxxxx` to `(xxx) xxx-xxxx`.
- - Take the date formate from month/year and separate it to have it's own fields (month and year)
+ - Take the date format from month/year and separate it to have it's own fields (month and year)
  - Be able to search by any part of the name and return the results 
 
 ------
