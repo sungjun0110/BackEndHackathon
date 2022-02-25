@@ -1,14 +1,87 @@
-# BACKEND 2-DAY HACKATHON
+# BACKEND 2-DAY HACKATHON	
 
-Create a FULL CRUD API of your choosing:
+Using the data from the JSON file, build a funtional **FULL CRUD** API.
 
-1. BUILD AN API  
-Create an API from scratch that does FULL CRUD using one of the JSON files included in this repo.
+As a developer you are assigned to build an api that takes in the data from the attendees.json for the latest "Nerd Out" gathering happening in April. 
 
-You must be able to use GET by at least 2 parameters. 
-Find and Update by certain parameters
+Objectives, create an API that takes in the data from the attendees.json file. At the moment there are 1,000 attendees. 
+
+### Your Task
+
+You must have endpoints that...
+
+- Shows all 1,000 attendees
+- Shows all listed based upon what team number that is inputed
+
+**GET**
+
+```
+ /api/team/1
+```
+
+should return a list of attendees that is on team 1
 
 
-2. Custome API using Exisiting API
+- Shows all based upon one of the following companies: `Apple`, `Microsoft`, `Google`, `Yahoo`, `Adobe`, `Amazon`, `Meta`, `Sony`, `Oracle`
 
-- 
+**GET**
+
+```
+ /api/company/Apple
+```
+
+should return a list of Apple attendees
+
+
+
+- Show attendees based upon the title: `President`
+
+**GET**
+
+```
+ /api/title/President
+```
+
+should return a list of attendee(s) who's title is `President`
+
+
+
+- Find attendee id #**793** and change their company from `Google` to `NASA`
+- Find attendee id #**98** Mojo Jojo and delete them from the **API**
+- Create a new attendee
+
+###  Bonus:
+
+ - Deploy your API
+ - Convert the phone field format from `xxx-xxxxxxx` to `(xxx) xxx-xxxx`.
+ - Take the date formate from month/year and separate it to have it's own fields (month and year)
+ - Be able to search by any part of the name and return the results 
+
+
+
+
+## Attendee sample
+
+```
+{
+		"id": 1,
+		"name": "Bob Ross",
+		"phone": "453-848156",
+		"address": "4010 Electric Av.",
+		"city": "Las Vegas",
+		"state": "Nevada",
+		"country": "United States",
+		"postalZip": "34556",
+		"email": "HappyTrees@happyclouds.edu",
+		"Company": "Apple",
+		"companyFunded": 82.16,
+		"userID": "DO19252537151321083934722339",
+		"team": 6,
+		"paid": true,
+		"date": "02/23",
+		"title": "CustomerSuccess"
+	}
+```
+
+
+
