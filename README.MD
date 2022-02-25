@@ -2,6 +2,8 @@
 
 Using the data from the JSON file, build a funtional **FULL CRUD** **API**.
 
+![NerdOut](nerdout.png)
+
 ## Your Task
 
 As a developer you are assigned to build an api that takes in the data from the `attendees.json` for the latest "Nerd Out" gathering happening in April. 
