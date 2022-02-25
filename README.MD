@@ -19,8 +19,14 @@ At the moment there are **1,000** attendees. You must have endpoints that...
 ```
  /api/team/1
 ```
+    or
+ ```
+ /api/team?q=1
+ ```
 
 ​	should return a list of attendees that is on team 1
+
+
 
 
 - Shows all based upon one of the following companies: `Apple`, `Microsoft`, `Google`, `Yahoo`, `Adobe`, `Amazon`, `Meta`, `Sony`, `Oracle`
@@ -30,8 +36,14 @@ At the moment there are **1,000** attendees. You must have endpoints that...
 ```
  /api/company/Apple
 ```
+or 
 
+```
+ /api/company?=Apple
+```
 ​	should return a list of Apple attendees
+
+
 
 - Show attendees based upon the title: `President`
 
@@ -40,8 +52,16 @@ At the moment there are **1,000** attendees. You must have endpoints that...
 ```
  /api/title/President
 ```
+ or
+
+ ```
+ /api/title?q=President
+ ```
 
 ​	should return a list of attendee(s) who's title is `President`
+
+
+
 
 - Find attendee id #**793** and change their company from `Google` to `NASA`
 - Find attendee id #**98** Mojo Jojo and delete them from the **API**
