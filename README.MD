@@ -78,7 +78,7 @@ At the moment there are **1,000** attendees. You must have endpoints that...
 		"paid": true,
 		"date": "02/23",
 		"title": "CustomerSuccess"
-	}
+}
 ```
 
 
