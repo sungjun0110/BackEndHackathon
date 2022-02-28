@@ -129,3 +129,20 @@ or
 
 
 
+### How to approach coding when your mind goes completely blank:
+
+1. Don't panic; going blank happens to everybody from time to time. 
+
+2. If you do panic, start reminding yourself you can get through this
+
+3. Take a moment away from the task to stable your mind.
+
+4. Drawing things out and Pseudocode everything
+
+5. Break down the code into smaller pieces
+
+   
+
+There is an more extensive view about debugging and working on code located here:
+ https://www.lifedebugger.dev/docs/debug
+
