@@ -7,4 +7,5 @@ router.get('/team/:teamId', appCtrl.showByTeam);
 router.get('/company/:companyName', appCtrl.showByCompany);
 router.get('/title/:title', appCtrl.showByTitle);
 
+
 module.exports = router;
