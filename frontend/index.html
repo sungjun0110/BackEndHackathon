@@ -9,9 +9,43 @@
     <title>Frontend</title>
 </head>
 <body>
-    <form id="getForm">
-        <label>Attendee ID</label>
-        <input type="text" name="attendeeId" required />
+    <form id="getFormByTeamId">
+        <label>Team ID</label>
+        <input type="number" name="teamId" min="1" max="20" value=1 required />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <form id="getFormByCompany">
+        <label>Company Name</label>
+        <select name="company">
+            <option value="Apple">Apple</option>
+            <option value="Microsoft">Microsoft</option>
+            <option value="Google">Google</option>
+            <option value="Yahoo">Yahoo</option>
+            <option value="Adobe">Adobe</option>
+            <option value="Amazon">Amazon</option>
+            <option value="Meta">Meta</option>
+            <option value="Sony">Sony</option>
+            <option value="Oracle">Oracle</option>
+        </select>
+        <input type="submit" value="Submit" />
+    </form>
+
+    <form id="getFormByTitle">
+        <label>Team ID</label>
+        <select name="title">
+            <option value="CustomerSuccess">CustomerSuccess</option>
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="DevOps">DevOps</option>
+            <option value="QA">QA</option>
+            <option value="BackEnd">BackEnd</option>
+            <option value="FullStack">FullStack</option>
+            <option value="TechLead">TechLead</option>
+            <option value="DataScience">DataScience</option>
+            <option value="ProjectManagement">ProjectManagement</option>
+            <option value="UI">UI</option>
+            <option value="President">President</option>
+        </select>
         <input type="submit" value="Submit" />
     </form>
 </body>
