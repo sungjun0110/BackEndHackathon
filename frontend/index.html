@@ -9,6 +9,12 @@
     <title>Frontend</title>
 </head>
 <body>
+    <form id="getFormByAttendeeId">
+        <label>Attendee ID</label>
+        <input type="number" name="attendeeId" min="1" max="1000" value=1 required />
+        <input type="submit" value="Submit" />
+    </form>
+
     <form id="getFormByTeamId">
         <label>Team ID</label>
         <input type="number" name="teamId" min="1" max="20" value=1 required />
@@ -16,7 +22,7 @@
     </form>
 
     <form id="getFormByCompany">
-        <label>Company Name</label>
+        <label>Company</label>
         <select name="company">
             <option value="Apple">Apple</option>
             <option value="Microsoft">Microsoft</option>
@@ -32,7 +38,7 @@
     </form>
 
     <form id="getFormByTitle">
-        <label>Team ID</label>
+        <label>Title</label>
         <select name="title">
             <option value="CustomerSuccess">CustomerSuccess</option>
             <option value="FrontEnd">FrontEnd</option>

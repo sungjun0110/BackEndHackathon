@@ -1,12 +1,21 @@
+const getFormByAttendeeId = document.getElementById('getFormByAttendeeId');
 const getFormByTeamId = document.getElementById('getFormByTeamId');
 const getFormByCompany = document.getElementById('getFormByCompany');
 const getFormByTitle = document.getElementById('getFormByTitle');
 
+getFormByAttendeeId.addEventListener('submit', (e) => getByAttendeeId(e));
 getFormByTeamId.addEventListener('submit', (e) => getByTeamId(e));
 getFormByCompany.addEventListener('submit', (e) => getByCompany(e));
 getFormByTitle.addEventListener('submit', (e) => getByTitle(e));
 
 const BASE_URL = "http://localhost:3000/app";
+
+function getByAttendeeId(e) {
+    e.preventDefault();
+    const formData = new FormData(getFormByAttendeeId);
+    const attendeeId = formData.get('attendeeId');
+    fetch(BASE_URL + `/attendee/${attendeeId}`).then(res => res.json()).then(data => console.log(data));
+}
 
 function getByTeamId(e) {
     e.preventDefault();
